@@ -1,10 +1,9 @@
 
-function forLoop(i) {
-  for (let i = 0; i < 25; i++) {
-  if(i = 1) {
-    return "I am 1 strange loop.";
-  } else {
+function forLoop(array) {
+  for (let i = 0; i <1; i++) {
+  return "I am 1 strange loop.";
+  }
+  for (let i=1; i<25;i++) {
     return "I am ${i} strange loops."
   }
-}
 }
